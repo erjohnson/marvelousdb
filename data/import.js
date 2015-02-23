@@ -3,7 +3,7 @@ var fs = require('fs');
 var Q = require('q');
 var async = require('async');
 var gender = require('gender');
-var db = require('orchestrate')('YOUR_API_KEY');
+var db = require('orchestrate')(process.env.ORCHESTRATE_API_KEY);
 
 
 

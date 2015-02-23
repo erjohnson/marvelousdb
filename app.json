@@ -1,0 +1,21 @@
+{
+  "name": "MarvelousDB",
+  "description": "Explore the Marvel universe built with Orchestrate.",
+  "repository": "https://github.com/erjohnson/marvelousdb",
+  "success_url": "/",
+  "keywords": [
+    "Orchestrate.io",
+    "Node",
+    "Javascript",
+    "Marvel Comics"
+  ],
+  "env": {
+    "ORCHESTRATE_API_KEY": {
+      "description": "You can find this on your Orchestrate.io Dashboard",
+      "required": true
+    }
+  },
+  "scripts": {
+    "postdeploy": "node import.js"
+  }
+}
